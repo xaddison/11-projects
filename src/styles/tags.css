@@ -23,6 +23,20 @@
   @apply bg-red-700;
 }
 
+
+.tag.beer {
+  @apply bg-blue-700;
+}
+
+.tag.spirituality {
+  @apply bg-indigo-700;
+}
+
+.tag.orcas {
+  @apply bg-purple-700;
+}
+
+
 .tag.enchiladas {
   @apply bg-yellow-700;
 }
