@@ -1,0 +1,101 @@
+stackbitVersion: ~0.3.0
+ssgName: eleventy
+nodeVersion: '12'
+publishDir: _site
+dataDir: src/globals
+pagesDir: src
+models:
+  src:
+    type: page
+    label: Src
+    match: '**/*'
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: excerpt
+        label: Excerpt
+      - type: date
+        name: date
+        label: Date
+      - type: date
+        name: updatedDate
+        label: Updated Date
+      - type: list
+        name: tags
+        label: Tags
+        items:
+          type: string
+      - type: boolean
+        name: draft
+        label: Draft
+      - type: string
+        name: path
+        label: Path
+  site:
+    type: data
+    label: Site
+    file: site.json
+    fields:
+      - type: string
+        name: name
+        label: Name
+      - type: string
+        name: description
+        label: Description
+      - type: string
+        name: url
+        label: Url
+      - type: string
+        name: baseUrl
+        label: Base Url
+      - type: object
+        name: author
+        label: Author
+        fields:
+          - type: string
+            name: handle
+            label: Handle
+          - type: string
+            name: name
+            label: Name
+      - type: object
+        name: images
+        label: Images
+        fields:
+          - type: image
+            name: twitter
+            label: Twitter
+          - type: image
+            name: og
+            label: Og
+      - type: object
+        name: feed
+        label: Feed
+        fields:
+          - type: string
+            name: filename
+            label: Filename
+          - type: string
+            name: path
+            label: Path
+          - type: string
+            name: id
+            label: Id
+      - type: object
+        name: jsonfeed
+        label: Jsonfeed
+        fields:
+          - type: string
+            name: filename
+            label: Filename
+          - type: string
+            name: path
+            label: Path
+          - type: string
+            name: url
+            label: Url
