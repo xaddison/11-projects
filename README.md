@@ -2,15 +2,25 @@
 
 [![Discord Shield](https://discordapp.com/api/guilds/732665868521177117/widget.png?style=shield)](https://discord.gg/CZ85mguYjK)
 
-America's favorite [Eleventy](https://www.11ty.dev) blog template. Built by [Reese Schultz](https://github.com/reeseschultz).
+America's favorite [Eleventy](https://www.11ty.dev) blog template.
 
-View the [demo](https://reeseschultz.github.io/11r/).
+Maintained by [Reese](https://github.com/reeseschultz).
+
+[View the demo 👀...](https://reeseschultz.github.io/11r/)
+
+## Support
+
+Need support or software customization?
+
+[Read more about consulting with the maintainer 🚀... ](https://reese.codes)
 
 ## Features
 
 - [Eleventy](https://www.11ty.dev) for static site generation. See `.eleventy.js`.
 - [Nunjucks](https://mozilla.github.io/nunjucks/) for templating.
 - [TailwindCSS](https://tailwindcss.com/) for utility-first styling. See `tailwind.config.js` and `src/styles/tailwind.css`.
+- [markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor) for generating anchors for headings.
+- [eleventy-plugin-nesting-toc](https://www.npmjs.com/package/eleventy-plugin-nesting-toc) for generating tables of contents from anchors. See [this page](https://reeseschultz.github.io/11r/post/lorem-ipsum/) for a demo.
 - [Prism](https://prismjs.com/) syntax highlighting for code with copy button scripting included via [clipboard.js](https://clipboardjs.com/). See `src/styles/base.css` for the theme; and `src/scripts/copy.js`, which is used by `main.js`.
 - [Rollup](https://rollupjs.org) for bundling and compiling. See `rollup.config.js`.
 - JavaScript-based privacy policy notice dismissal handling. See `src/scripts/privacy-policy.js`, which is used by `main.js`.
@@ -56,8 +66,8 @@ Tags are styled in `src/styles/tags.css`. Coloring custom tags works as such:
 - The code copying script was adapted from [https://codepen.io/wilbo/pen/xRVLOj](https://codepen.io/wilbo/pen/xRVLOj) by [Wilbert Schepenaar](https://wilbert.dev/).
 - SEO handling was inspired from [Skeleventy](https://github.com/josephdyer/skeleventy) by [Joseph Dyer](https://github.com/josephdyer).
 
-## Contributing
+## Contributing & License
 
-Find a problem, or have an improvement in mind? Great. Go ahead and submit a pull request. Note that the maintainer offers no assurance he will respond to you, fix bugs or add features on your behalf in a timely fashion, if ever. All that said, [GitHub Issues](https://github.com/reeseschultz/11r/issues/new/choose) is fine for constructive discussion.
+Find a problem, or have an improvement in mind? Great. Go ahead and submit a pull request. Note that the maintainer, Reese, offers no assurance he will respond to you, fix bugs or add features on your behalf in a timely fashion, if ever, [unless you reach an agreement with him about support...](https://reese.codes)
 
-By submitting a pull request, you agree to license your work under [this project's MIT license](https://github.com/reeseschultz/11r/blob/main/LICENSE).
+By submitting a pull request, you agree to license your work under [this project's MIT license](https://github.com/reeseschultz/ReeseUnityDemos/blob/master/LICENSE).
