@@ -1,11 +1,11 @@
 {
   "name": "11r",
   "description": "america's favorite eleventy blog template",
-  "url": "https://reeseschultz.github.io",
-  "baseUrl": "/11r/",
+  "url": "https://github.io/xaddison/11-projects",
+  "baseUrl": "/11-projects/",
   "author": {
-    "handle": "@ReeseCodes",
-    "name": "Reese Schultz"
+    "handle": "@hacked",
+    "name": "hacked"
   },
   "images": {
     "twitter": "twitter.jpg",
@@ -14,11 +14,11 @@
   "feed": {
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://11-projects.netlify.app"
   },
   "jsonfeed": {
     "filename": "feed.json",
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://11-projects.netlify.app/feed/feed.json"
   }
 }
